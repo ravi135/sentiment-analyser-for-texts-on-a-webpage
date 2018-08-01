@@ -56,7 +56,7 @@ def main():
 			print("\nTotal neutral reviews: ",str(neutralReviews)+'\n')
 			
 		if(negativeReviews > 0):
-			print("\n*****These are neutral reviews.*****\n")
+			print("\n*****These are negative reviews.*****\n")
 			printReviews(negativeList)
 			print("\nTotal negative reviews: ",str(negativeReviews)+'\n')
 
